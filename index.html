@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Number Guesser Game" />
+    <meta name="keywords" content="Number, Guesser, Game" />
+    <meta name="author" content="Md. Rifat Islam" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/number.png" type="image/gif" />
+
+    <!-- Custom style sheet -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Number Guesser Game</title>
+</head>
+
+<body>
+    <!-- Header section -->
+    <header>
+        <h1>Number Guesser Game</h1>
+    </header>
+
+    <!-- Main section -->
+    <main>
+        <section>
+            <h3>Guess a number between 1 - 10</h3>
+            <p>You have <span id="total-chance"></span> chances left</p>
+            <div id="alert"></div><br>
+
+            <form id="guess-form">
+                <input type="text" id="guess-number" name="guess-number" required="true" placeholder="Enter a number" />
+                <button type="submit" id="enter-btn">Enter</button>
+            </form>
+            <br>
+            <button type="button" id="restart-btn">Restart</button>
+        </section>
+    </main>
+    <hr />
+
+    <!-- Footer section -->
+    <footer>
+        <p>Copyright &copy; 2021 built with <span class="heart">&hearts;</span> by Md. Rifat Islam</p>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
